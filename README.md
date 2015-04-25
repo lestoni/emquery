@@ -1,4 +1,5 @@
 ## emquery
+[![Build Status](https://travis-ci.org/lestoni/emquery.svg)](https://travis-ci.org/lestoni/emquery)
 
 construct a mongodb query update for embedded documents.
 
