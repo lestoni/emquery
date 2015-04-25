@@ -1,0 +1,31 @@
+{
+  "name": "emquery",
+  "version": "1.0.0",
+  "description": "construct a mongodb update query data from a object",
+  "main": "index.js",
+  "dependencies": {
+    "build-object-paths": "~1.0.0",
+    "get-object-path": "~0.0.2",
+    "lodash": "~3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.4"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lestoni/emquery.git"
+  },
+  "keywords": [
+    "mongodb",
+    "db"
+  ],
+  "author": "Tony Mutai <tonimut7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lestoni/emquery/issues"
+  },
+  "homepage": "https://github.com/lestoni/emquery#readme"
+}
