@@ -1,5 +1,6 @@
 ## emquery
 [![Build Status](https://travis-ci.org/lestoni/emquery.svg)](https://travis-ci.org/lestoni/emquery)
+[![NPM](https://nodei.co/npm/emquery.png?downloads=true&stars=true)](https://nodei.co/npm/emquery/)
 
 construct a mongodb query update for embedded documents.
 
