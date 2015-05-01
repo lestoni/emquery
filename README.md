@@ -2,10 +2,9 @@
 [![Build Status](https://travis-ci.org/lestoni/emquery.svg)](https://travis-ci.org/lestoni/emquery)
 [![NPM](https://nodei.co/npm/emquery.png?downloads=true&stars=true)](https://nodei.co/npm/emquery/)
 
-construct a mongodb query update for embedded documents.
+Construct a mongodb query update for embedded documents.
 
-Works great with mongoose. Basically the idea is to ease the updating of
-embedded documents with mongodb's `$set` operator.
+Works great with mongoose.
 
 ## install
 

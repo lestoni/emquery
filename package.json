@@ -1,7 +1,7 @@
 {
   "name": "emquery",
   "version": "1.0.1",
-  "description": "construct a mongodb update query data from a object",
+  "description": "construct a mongodb update query data from an object",
   "main": "index.js",
   "dependencies": {
     "build-object-paths": "~1.0.0",
