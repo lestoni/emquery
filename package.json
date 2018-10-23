@@ -6,10 +6,10 @@
   "dependencies": {
     "build-object-paths": "~1.0.0",
     "get-object-path": "~0.0.2",
-    "lodash": "~3.7.0"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "mocha": "~2.2.4"
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test.js"
