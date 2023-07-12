@@ -1,9 +1,9 @@
 /**
  * Load Module Dependencies.
  */
-var objPath    = require('get-object-path');
-var buildPaths = require('build-object-paths');
-var _          = require('lodash');
+const objPath    = require('get-object-path');
+const buildPaths = require('build-object-paths');
+const _         = require('lodash');
 
 /**
  * Construct query from an object
@@ -13,9 +13,9 @@ var _          = require('lodash');
  * @return {Object} constructed query
  */
 module.exports = function buildQuery(obj){
-  var paths = buildPaths(obj);
-  var query = {};
-  var uniqQuery = {};
+  const paths = buildPaths(obj);
+  const query = {};
+  const uniqQuery = {};
 
   paths.forEach(function iterate(path){
     query[path] = objPath(obj, path);

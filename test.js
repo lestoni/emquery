@@ -1,8 +1,8 @@
-var assert = require('assert');
-var emquery = require('./');
+const assert = require('assert');
+const emquery = require('./');
 
 describe('emquery', function() {
-  var data = {
+  const data = {
     credentials: {
       username: "lestoni",
       gender: "male",
@@ -15,7 +15,7 @@ describe('emquery', function() {
   };
 
   it('should return parsed query', function(){
-    var query = emquery(data);
+    const query = emquery(data);
 
     assert.ok(query);
     assert.notEqual(Object.keys(query).indexOf('credentials.contacts.phone'), -1);

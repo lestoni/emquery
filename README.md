@@ -19,12 +19,12 @@ Works great with mongoose.
 ```
 
 ```javascript
-  var emquery = require('emquery');
+  const emquery = require('emquery');
 
-  var UserModel = require('../models/user');
+  const UserModel = require('../models/user');
 
   app.put('/users/:id', function updateUser(req, res, next) {
-    var updates = {
+    const updates = {
       $set: emquery(req.body);
     };
 

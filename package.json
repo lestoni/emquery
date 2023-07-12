@@ -1,18 +1,18 @@
 {
   "name": "emquery",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "construct a mongodb update query data from an object",
   "main": "index.js",
   "dependencies": {
-    "build-object-paths": "~1.0.0",
-    "get-object-path": "~0.0.2",
-    "lodash": "^4.17.11"
+    "build-object-paths": "~1.0.2",
+    "get-object-path": "~0.0.3",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test.js"
+    "test": "npx mocha test.js"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
-var emquery = require('./');
+const emquery = require('./');
 
-var data = {
+const data = {
   contacts: {
     email: 'user@email.com',
     phone: '+00 000 000 000'
@@ -8,7 +8,7 @@ var data = {
   quantity: 5,
   types: ['white', 'green']
 };
-var obj = {
+const obj = {
   credentials: {
     username: "lestoni",
     gender: "male",
